@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <nav>
-      <Link to="/">🍽 Recipe App</Link>
+      <Link to="/">Recipe App</Link>
       <form onSubmit={handleSubmit}>
         <input
           value={query}
@@ -22,7 +22,7 @@ export default function Navbar() {
           placeholder="Search recipes"
         />
       </form>
-      <Link to="/favorites">❤️ Favorites</Link>
+      <Link to="/favorites">Favorites</Link>
     </nav>
   );
 }
